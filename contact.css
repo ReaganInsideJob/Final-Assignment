@@ -1,0 +1,196 @@
+@font-face {
+  font-family: Inconsolata;
+  src: url(Inconsolata.ttf);
+}
+
+@font-face {
+  font-family: Raleway;
+  src: url(Raleway.ttf);
+}
+
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 10vh;
+  background-color: #0D2241;
+  flex-direction: column;
+  font-family: "Inconsolata", sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+
+.circles-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-right: 400px;
+}
+
+.circle {
+    width: 10px;
+    height: 10px;
+    border: 2px solid #fffafa; /* Set border color */
+    border-radius: 50%;
+    background-color: transparent;
+}
+
+.navbar {
+  position: relative;
+  width: 100%;
+  height:50px;
+  background: black;
+  border-radius: 8px;
+  margin-bottom: 20px;;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar ul{
+  position: relative;
+  margin-right: 450px;
+}
+
+.navbar a:hover {
+  background-color: #DAAF37; /* Change to the desired color */
+  color: black;
+}
+
+.navbar a{
+  font-size: 0.9em;
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+  padding: 0 10px;
+  /*
+  position: relative;
+  display: flex;
+  font-size: 1em;
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+  padding: 0 23px;
+  */
+}
+
+main {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+  color: white;
+}
+h1{
+  color: white;
+  margin-top: 40px;
+}
+
+main h1{
+  margin-top: 5px;
+  margin-bottom: 20px;
+  font-family: "Lor", sans-serif;
+}
+
+main p{
+  font-size: 20px;
+  margin-left: 8em;
+  margin-right: 8em;
+}
+
+.container {
+    margin-top: 50px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column; /* Set the direction to column */
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input, textarea {
+    margin-bottom: 16px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: block; /* Set display to block */
+    width: 100%; /* Make the inputs take full width */
+}
+
+button {
+    padding: 10px;
+    background-color: #60606c;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #a2a7b9;
+}
+
+footer {
+    background-color: #474747; 
+    padding: 20px;
+    text-align: center;
+    position: relative; 
+    margin-top: 30px;
+}
+
+.footer-line {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 100%;
+    height: 1px;
+    background-color: #474747; 
+    transform: translateX(-50%); 
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-links {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fafafa; 
+}
+
+.footer-links a:hover {
+  background-color: #DAAF37; 
+  color: black;
+}
+
+.citation {
+    margin: 0;
+    color: #ffffff; 
+}
